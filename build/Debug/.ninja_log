@@ -1,13 +1,13 @@
 # ninja log v5
-30	933	7526097375390018	CMakeFiles/iic.dir/Core/Src/usart.c.obj	8d2eaabc50a02bde
+38	297	7526693788860701	CMakeFiles/iic.dir/Core/Src/usart.c.obj	8d2eaabc50a02bde
 66	965	7526097376212357	CMakeFiles/iic.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj	9ac1c9705f7a3059
 42	947	7526097375829920	CMakeFiles/iic.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj	87f6d4f0ee0bddfc
-22	201	7526129502056268	CMakeFiles/iic.dir/Core/Src/main.c.obj	618807607a022728
-21	615	7526647067569053	CMakeFiles/iic.dir/Core/Src/stm32f1xx_it.c.obj	da5cc197dc24433a
-38	949	7526097375972348	CMakeFiles/iic.dir/Core/Src/stm32f1xx_hal_msp.c.obj	63ce8ce2f122cf20
-18	620	7526647067588670	CMakeFiles/iic.dir/Core/Src/i2c.c.obj	4345a771262e07de
+2	174	7526726646144412	CMakeFiles/iic.dir/Core/Src/main.c.obj	618807607a022728
+42	295	7526693788840701	CMakeFiles/iic.dir/Core/Src/stm32f1xx_it.c.obj	da5cc197dc24433a
+47	285	7526693788750712	CMakeFiles/iic.dir/Core/Src/stm32f1xx_hal_msp.c.obj	63ce8ce2f122cf20
+35	283	7526693788730714	CMakeFiles/iic.dir/Core/Src/i2c.c.obj	4345a771262e07de
 55	945	7526097375759642	CMakeFiles/iic.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj	25b80b29d46144c2
-22	942	7526097375475274	CMakeFiles/iic.dir/Core/Src/gpio.c.obj	426ffa02ce376aab
+32	266	7526693788520605	CMakeFiles/iic.dir/Core/Src/gpio.c.obj	426ffa02ce376aab
 50	946	7526097375731027	CMakeFiles/iic.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj	a4601d7e3bf90bd9
 77	943	7526097375384943	CMakeFiles/iic.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj	ef562ad0f96a9722
 112	940	7526097375400090	CMakeFiles/iic.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj	843f2747fa47eff7
@@ -24,9 +24,8 @@
 919	1081	7526097377398502	CMakeFiles/iic.dir/Core/Src/sysmem.c.obj	95b816abd624a6dc
 127	959	7526097376142330	CMakeFiles/iic.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj	8c6f4c8830b3371f
 46	958	7526097376122326	CMakeFiles/iic.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj	aceb81ec115d3071
-201	365	7526129503481713	iic.elf	952bc3cc96bca19e
-21	175	7526126210296119	CMakeFiles/iic.dir/Core/Src/aht20.c.obj	3f99398598c26e54
-21	360	7526649167998000	build.ninja	e9a0836e7388b020
-23	199	7526649185037627	iic.elf	952bc3cc96bca19e
-1	175	7526656218240032	CMakeFiles/iic.dir/Core/Src/main.c.obj	618807607a022728
-175	356	7526656219855248	iic.elf	952bc3cc96bca19e
+175	379	7526726647932505	iic.elf	952bc3cc96bca19e
+22	265	7526693788530591	CMakeFiles/iic.dir/Core/Src/aht20.c.obj	3f99398598c26e54
+1	723	7526730786758338	build.ninja	e9a0836e7388b020
+1	307	7526730786758338	build.ninja	e9a0836e7388b020
+13	223	7526730789006459	iic.elf	d7cf45f64c00000e

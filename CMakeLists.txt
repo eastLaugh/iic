@@ -34,6 +34,9 @@ enable_language(C ASM)
 project(${CMAKE_PROJECT_NAME})
 message("Build type: " ${CMAKE_BUILD_TYPE})
 
+# 设置链接器标志
+set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -u _printf_float")
+
 # Create an executable object type
 add_executable(${CMAKE_PROJECT_NAME})
 
