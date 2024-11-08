@@ -8,12 +8,12 @@ uint8_t readBuffer[6] = {0};
 void AHT20_Measure()
 {
     static uint8_t sendBuffer[3] = {0xAC, 0x33, 0x00};
-    HAL_I2C_Master_Transmit_IT(&hi2c1, 0x38 << 1, sendBuffer, 3);
+    HAL_I2C_Master_Transmit_DMA(&hi2c1, 0x38 << 1, sendBuffer, 3);
 }
 
 void AHT20_Get()
 {
-    HAL_I2C_Master_Receive_IT(&hi2c1, 0x38 << 1, readBuffer, 6);
+    HAL_I2C_Master_Receive_DMA(&hi2c1, 0x38 << 1, readBuffer, 6);
 }
 
 void AHT20_Analysis(float *temperature, float *humidity)
