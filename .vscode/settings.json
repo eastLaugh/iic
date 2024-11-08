@@ -1,0 +1,11 @@
+{
+    "editor.cursorStyle": "block",
+    "editor.wordWrap": "on",
+    "files.associations": {
+        "aht20.h": "c",
+        "i2c.h": "c",
+        "stdio.h": "c",
+        "main.h": "c",
+        "usart.h": "c"
+    }
+}
